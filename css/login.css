@@ -1,0 +1,50 @@
+:root{
+  --blanco:#ffffff;
+  --negro:#212121;
+  --primario:#ffc107;
+  --secundario:#0097a7;
+  --gris:#757575;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Krub', sans-seriff;
+}
+
+.nav-bar{
+  background-color: var(--primario);
+}
+
+.contenedor{
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.navegacion a{
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--negro);
+  padding: 1rem;
+}
+.navegacion{
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-contenedor{
+  margin: 30rem;
+  
+}
+.login-contenedor h2{
+  text-align: center;
+}
+
