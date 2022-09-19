@@ -9,7 +9,7 @@
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
--Grid
+- Grid
 
 ## Author
 - Twitter - [@rian_1975](https://twitter.com/rian_1975)
